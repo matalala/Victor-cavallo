@@ -127,7 +127,7 @@
 .contenedor-productos {
     display: grid;
     grid-column: 3;
-    width: 1000px;
+    width: auto;
     justify-content: center;
     background-color: #00000091;
     border-radius: 5px;
