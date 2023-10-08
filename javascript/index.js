@@ -16,14 +16,14 @@ const cerrarFiltrado = () => {
     if (botonFiltro.innerHTML === "&gt;") {
 
         botonFiltro.innerHTML = "&lt;"
-        contenedorPrinsipal.style.gridTemplateColumns = "250px 5% 75%"
+        contenedorPrinsipal.style.gridTemplateColumns = "20% 5% 75%"
         filtrado.style.display = "flex"
         filtrado.style.visibility = "visible"
         contenedorProductos.style.margin = "0px"
     }
     else {
         botonFiltro.innerHTML = "&gt;",
-            contenedorPrinsipal.style.gridTemplateColumns = "0px 5% 75%"
+            contenedorPrinsipal.style.gridTemplateColumns = "0% 5% 75%"
         filtrado.style.display = "none"
         filtrado.style.visibility = "hidden"
         contenedorProductos.style.margin = "0px  0px 0px 100px"
