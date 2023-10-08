@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titulo</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200&display=swap" rel="stylesheet">
+    <title>home</title>
+    <!-- agregar seo -->
 </head>
+
 <body>
-    
+    <header class="menu">
+        <div class="menu-superior">
+            <a href="./index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
+            <form class="contenedor-buscar">
+                <button type="submit" id="boton-buscador">
+                    <img class="logo-buscar" value="Buscar" src="./img/logo-buscar.png" alt="buscar">
+                </button>
+                <input class="buscador" type="text" name="name" id="buscador" placeholder="buscar...">
+            </form>
+            <div class="contenedor-usuario">
+                <img src="./img/logo-usuario.png" alt="mi cuenta">
+                <img src="./img/logo-favorito.png" alt="favoritos">
+                <img src="./img/logo-carrito.png" alt="carrito">
+            </div>
+        </div>
+        <div class="menu-inferior">
+            <div class="contenedor-categorias">
+                <!-- voy a traer las categorias desde servidor -->
+            </div>
+
+        </div>
+    </header>
+
+    <main id="contenedor-pricipal" class="contenedor-pricipal">
+        <ul id="filtrado" class="filtrado">
+            <li>Filtrado por Tipo</li>
+            <li>Filtrado por Marca</li>
+            <li>Filtrado por Color</li>
+            <li>Filtrado por Talle</li>
+        </ul>
+        <div id="contenedor-cerrar-filtro" class="contenedor-cerrar-filtro">
+            <span id="cerrar-filtro">
+                < </span>
+        </div>
+        <div id="contenedor-productos" class="contenedor-productos">
+            <div id="productos" class="productos">
+                productos
+            </div>
+            <!-- para los productos voy a utilizar boostrap -->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor-contacto">
+            <h4 class="contacto">Contacto</h4>
+            <p class="contacto">Lorem Ipsum</p>
+            <p class="contacto">Lorem Ipsum</p>
+        </div>
+        <div class="contenedor-ubicacion">
+            <h4 class="ubicacion">Encontranos en:</h4>
+            <p class="ubicacion">Lorem Ipsum</p>
+            <p class="ubicacion">Lorem Ipsum</p>
+        </div>
+        <div class="contenedor-nosotros">
+            <a class="nosotros-link" href="index.html">Nosotros</a>
+            <a class="nosotros-link" href="index.html">Terminos y Condiciones</a>
+        </div>
+    </footer>
+    <script src="./javascript/index.js"></script>
 </body>
+
 </html>
