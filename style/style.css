@@ -83,7 +83,7 @@
 .contenedor-pricipal {
     margin: 25px 10px;
     display: grid;
-    grid-template-columns: 25% 5% 75%;
+    grid-template-columns: 20% 5% 75%;
     min-height: 500px;
 }
 
