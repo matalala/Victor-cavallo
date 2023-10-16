@@ -8,14 +8,14 @@
     display: none;
 }
 
-.menu {
+.header {
     background-color: #00000091;
     border-radius: 1px solid #000000;
     box-shadow: 0 0 15px #000000;
     margin: 0px 5px;
 }
 
-.menu-superior {
+.contenedor-logo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,6 +60,10 @@
     text-align: center;
 }
 
+#carouselExampleControls{
+    background-color: #000000;
+    margin: 10px;
+}
 
 .menu-inferior {
     display: flex;
@@ -83,7 +87,7 @@
 .contenedor-pricipal {
     margin: 25px 10px;
     display: grid;
-    grid-template-columns: 25% 5% 75%;
+    grid-template-columns: 20% 5% 75%;
     min-height: 500px;
 }
 
