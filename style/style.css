@@ -246,6 +246,12 @@ body{
 }
 
 @media(max-width: 988px) {
+    .contenedor-buscar {
+        display: none;
+    }
+    .menu-hamburgesa {
+        display: inline;
+    }
     .contenedor-pricipal {
         display: block;
     }
