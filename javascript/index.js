@@ -1,3 +1,5 @@
+
+
 let botonFiltro = document.getElementById("cerrar-filtro");
 let filtrado = document.getElementById('filtrado')
 let contenedorPrinsipal = document.getElementById("contenedor-pricipal")
