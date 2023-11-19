@@ -11,4 +11,14 @@ este proyecto es una tienda online de ropa
 
 -y un footer con contenido adicional 
 
+## links
+
+*Deploy*
+
+- **https://matalala.github.io/victor-cavallo/**
+
+*GitHub*
+
+- **https://github.com/matalala/victor-cavallo**
+
 
