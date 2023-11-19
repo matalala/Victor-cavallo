@@ -125,6 +125,13 @@ const productos = [
         categoria: ["remeras", "mujere"],
         img: ["https://levisarg.vtexassets.com/arquivos/ids/790325-800-auto?v=638295273212300000&width=800&height=auto&aspect=true", "https://levisarg.vtexassets.com/arquivos/ids/790326-800-auto?v=638295273224170000&width=800&height=auto&aspect=true", "https://levisarg.vtexassets.com/arquivos/ids/790327-800-auto?v=638295273237300000&width=800&height=auto&aspect=true"]
     },
+    {
+        id: 19,
+        nombre: "MINI TEE FULL PRINT",
+        precio: 34.900,
+        categoria: ["remeras", "mujere"],
+        img: ["https://levisarg.vtexassets.com/arquivos/ids/790325-800-auto?v=638295273212300000&width=800&height=auto&aspect=true", "https://levisarg.vtexassets.com/arquivos/ids/790326-800-auto?v=638295273224170000&width=800&height=auto&aspect=true", "https://levisarg.vtexassets.com/arquivos/ids/790327-800-auto?v=638295273237300000&width=800&height=auto&aspect=true"]
+    },
 ]
 let filtrado = document.getElementById('filtrado')
 let botonBuscar = document.getElementById("boton-buscador")
